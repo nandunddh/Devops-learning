@@ -1,4 +1,4 @@
-name: Php Syntax Check
+name: Php CI - Syntax Check
 on: [push]
 
 jobs:
