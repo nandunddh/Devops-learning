@@ -1,0 +1,10 @@
+name: Php Syntax Check
+on: [push]
+
+jobs:
+  check-syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - users: actions/checkout@v3
+      - name: Run Php Linter
+        run: php -l *.php
